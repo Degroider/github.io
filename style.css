@@ -1,0 +1,128 @@
+html {
+    color: black;
+}
+
+body {
+    max-width: 350px;
+    margin: auto;
+    padding: 5px 5px;
+    color: black;
+    font-family: 'Arial';
+}
+
+#plus {
+    width: 60px;
+}
+
+#minus {
+    width: 60px;
+}
+
+#times {
+    width: 60px;
+}
+
+#divide {
+    width: 60px;
+}
+
+#eq {
+    width: 165px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border: inset px #ffffff;
+    font-weight: bold;
+    color: #e5ffff;
+    font-family: 'Arial';
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(2, 0, 52) 100%);
+}
+
+.btnc {
+    width: 40px;
+    height: 40px;
+    border: inset 1px #00ffc3;
+    font-weight: bold;
+    color: #e5ffff;
+    font-family: 'Arial';
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 47, 52) 100%);
+}
+
+.operator {
+    color: white;
+    border-radius: 5px;
+}
+
+html {
+    font-family: 'Arial';
+    background: rgb(44, 44, 44);
+    height: 100%;
+    background-repeat: no-repeat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+button {
+    font-family: 'Arial';
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 81.5px;
+    height: 40px;
+    display: inline-block;
+    font-size: 16px;
+    border-color: rgb(29, 172, 139);
+    border-radius: 5px;
+}
+
+#first_Number {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(2, 0, 52) 100%);
+    ;
+    border-color: white;
+    color: white;
+    padding: 5px 0;
+    width: 250px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#sub_number {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(2, 0, 52) 100%);
+    ;
+    border-color: white;
+    color: white;
+    width: 250px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    border:inset;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#blank {
+    width: 254px;
+}
+
+.elements {
+    width: 254px;
+    border: 5px inset;
+    border-color: rgb(11, 0, 71);
+    border-radius: 22px;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+}
+
+.operator_buttons {
+    color: white;
+}

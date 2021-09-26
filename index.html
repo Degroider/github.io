@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="elements">
+    <div class="inputs">
+      <input id="first_Number" />
+      <text id="sub_number" />
+    </div>
+
+    <div id="operator_btns ">
+      <button id="plus" class="operator" onclick="op='+';finding_result()">+</button>
+      <button id="minus" class="operator" onclick="op='-';finding_result()">-</button>
+      <button id="times" class="operator" onclick="op='*';finding_result()">x</button>
+      <button id="divide" class="operator" onclick="op='/';finding_result()">:</button>
+      <button id="1" class="operator" onclick="one='1';add_number(1)">1</button>
+      <button id="2" class="operator" onclick="one='2';add_number(2)">2</button>
+      <button id="3" class="operator" onclick="one='3';add_number(3)">3</button>
+      <button id="4" class="operator" onclick="one='4';add_number(4)">4</button>
+      <button id="5" class="operator" onclick="one='5';add_number(5)">5</button>
+      <button id="6" class="operator" onclick="one='6';add_number(6)">6</button>
+      <button id="7" class="operator" onclick="one='7';add_number(7)">7</button>
+      <button id="8" class="operator" onclick="one='8';add_number(8)">8</button>
+      <button id="9" class="operator" onclick="one='9';add_number(9)">9</button>
+      <button id="blank" class="operator" onclick="one='0';add_number(0)">0</button>
+    </div>
+    <div class="content hidden">
+      <button id="sqr" class="operator" onclick="op='^';finding_result()">x^2</button>
+      <button id="sqrt" class="operator" onclick="op='√';finding_result()">√</button>
+      <button id="tenpow" class="operator" onclick="op='10^';finding_result()">10^</button>
+      <button id="log" class="operator" onclick="op='log';finding_result()">log(e)</button>
+      <button id="ln" class="operator" onclick="op='ln';finding_result()">ln</button>
+      <button id="n!" class="operator" onclick="op='n!';finding_result()">n!</button>
+      <button id="|x|" class="operator" onclick="op='|x|';finding_result()">|x|</button>
+      <button id="epowx" class="operator" onclick="op='e^x';finding_result()">e^x</button>
+      <button id="1/x" class="operator" onclick="op='1/x';finding_result()">1/x</button>
+
+    </div>
+    <button id="eq" onclick="answer()">=</button>
+    <button class="btn" type="button">
+      M
+    </button>
+    <button id="c" onclick="clear()" class="btnc">
+      C
+    </button>
+    <p id="result"></p>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
